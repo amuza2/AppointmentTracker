@@ -1,5 +1,6 @@
 import asyncio
 import logging
+import os
 import flet as ft
 
 from services import database
@@ -99,4 +100,4 @@ def _show_notification(page: ft.Page, apt):
 
 
 if __name__ == "__main__":
-    ft.run(main, view=ft.AppView.WEB_BROWSER)
+    ft.run(main, view=ft.AppView.WEB_BROWSER, port=int(os.environ.get("PORT", 8080)))

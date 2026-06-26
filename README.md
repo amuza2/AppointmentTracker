@@ -25,7 +25,7 @@ App opens at `http://localhost:<port>`.
 **Render**: Add PostgreSQL, set `DATABASE_URL`, and use:
 
 ```bash
-uv run flet run main.py --port $PORT
+uv run python main.py
 ```
 
 ## Structure
