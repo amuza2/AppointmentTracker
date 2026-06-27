@@ -6,7 +6,7 @@ from dataclasses import dataclass
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(name)s] %(message)s")
 logger = logging.getLogger("mobile")
 
-API_URL = "https://your-app.onrender.com"  # Change to your Render API URL
+API_URL = "https://appointmenttracker-1.onrender.com"
 
 DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
